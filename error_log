@@ -1,0 +1,22 @@
+[15-Jul-2016 11:12:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /www/wibsy/public_html/daris/darisfb/test.php on line 5
+[15-Jul-2016 11:12:57 UTC] PHP Fatal error:  Class 'FacebookAds\Object\Lead' not found in /www/wibsy/public_html/daris/darisfb/test.php on line 5
+[15-Jul-2016 13:26:25 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'An Api instance must be provided as argument or set as instance in the \FacebookAds\Api' in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php:95
+Stack trace:
+#0 /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php(59): FacebookAds\Object\AbstractCrudObject::assureApi(NULL)
+#1 /www/wibsy/public_html/daris/darisfb/test.php(5): FacebookAds\Object\AbstractCrudObject->__construct('Daris Lead V2')
+#2 {main}
+  thrown in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php on line 95
+[15-Jul-2016 13:34:37 UTC] PHP Fatal error:  Class 'Page' not found in /www/wibsy/public_html/daris/darisfb/test.php on line 5
+[15-Jul-2016 13:35:44 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'An Api instance must be provided as argument or set as instance in the \FacebookAds\Api' in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php:95
+Stack trace:
+#0 /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php(59): FacebookAds\Object\AbstractCrudObject::assureApi(NULL)
+#1 /www/wibsy/public_html/daris/darisfb/test.php(5): FacebookAds\Object\AbstractCrudObject->__construct('darisdeveloppem...')
+#2 {main}
+  thrown in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php on line 95
+[15-Jul-2016 13:43:31 UTC] PHP Fatal error:  Call to a member function call() on a non-object in /www/wibsy/public_html/daris/darisfb/test.php on line 5
+[15-Jul-2016 13:47:24 UTC] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'An Api instance must be provided as argument or set as instance in the \FacebookAds\Api' in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php:95
+Stack trace:
+#0 /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php(59): FacebookAds\Object\AbstractCrudObject::assureApi(NULL)
+#1 /www/wibsy/public_html/daris/darisfb/test.php(5): FacebookAds\Object\AbstractCrudObject->__construct(1713029962291359)
+#2 {main}
+  thrown in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php on line 95
