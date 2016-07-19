@@ -20,3 +20,46 @@ Stack trace:
 #1 /www/wibsy/public_html/daris/darisfb/test.php(5): FacebookAds\Object\AbstractCrudObject->__construct(1713029962291359)
 #2 {main}
   thrown in /www/wibsy/public_html/daris/darisfb/src/FacebookAds/Object/AbstractCrudObject.php on line 95
+[15-Jul-2016 15:45:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /www/wibsy/public_html/daris/darisfb/webhook.php on line 8
+[18-Jul-2016 15:01:24 UTC] PHP Warning:  file_get_contents(php //input): failed to open stream: No such file or directory in /www/wibsy/public_html/daris/darisfb/webhook.php on line 9
+[18-Jul-2016 15:01:24 UTC] 
+[19-Jul-2016 16:34:01 UTC] 
+[19-Jul-2016 16:34:12 UTC] 
+[19-Jul-2016 16:37:10 UTC] 
+[19-Jul-2016 16:39:06 UTC] 
+[19-Jul-2016 16:40:32 UTC] Array
+(
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [changes] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [field] => leadgen
+                                    [value] => Array
+                                        (
+                                            [ad_id] => 0
+                                            [form_id] => 1743728145898132
+                                            [leadgen_id] => 1746794872258126
+                                            [created_time] => 1468946425
+                                            [page_id] => 1713029962291359
+                                            [adgroup_id] => 0
+                                        )
+
+                                )
+
+                        )
+
+                    [id] => 1713029962291359
+                    [time] => 1468946426
+                )
+
+        )
+
+    [object] => page
+)
+
+[19-Jul-2016 16:58:09 UTC] 
+[19-Jul-2016 16:58:37 UTC] 
